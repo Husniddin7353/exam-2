@@ -1,0 +1,201 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+  
+}
+.d-flex {
+     display: flex;
+}
+
+.a-items-center {
+     align-items: center;
+}
+
+.justify-sb {
+     justify-content: space-between;
+}
+
+a {
+     text-decoration: none;
+}
+ /* HEADER */
+ .logotip{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+ }
+
+ .logo-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    width: 350px;
+    margin:16px 12px;
+ }
+
+ .nav-input input{
+    font-size: 16px;
+    line-height: 16px;
+    color: #C1C1C1;
+    border: none;
+    background-color: transparent;
+    margin-left: 15px;
+ }
+
+ .nav-lang button{
+     background-color: transparent;
+    font-size: 16px;
+    line-height: 16px;
+    border: none;
+    margin-left: 20px;
+    color: #C1C1C1;
+ }  
+
+ .nav-lang button:hover{
+     color: black;
+ }
+/* --------------------- */
+
+/* nav-section */
+.nav-items{
+    font-size: 20px;
+    line-height: 20px;
+    color: #C1C1C1;
+    margin: 55px 12px;
+    transition: 0.3s;
+}
+.nav-items:hover{
+    color: black;
+}
+
+
+/* ------------ */
+.cliply-items{
+    margin: 8px;
+}
+ .back-img, .img img{
+     background-color: rgb(240, 240, 240);
+     height: 15rem;
+     width: 15rem;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .back-img img{
+     margin-top: 40% ;
+    margin: 0 auto;
+ }
+ 
+
+ footer{
+     margin-top: 60px;
+ }
+
+ /* -------------------SECOND PAGE------------------------------ */
+
+ .middle{
+     text-align: center;
+ }
+ .middle h2{
+     margin-top: 15px;
+ }
+
+ .middle p{
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #8E8E8E;
+    margin: 15px 0;
+ }
+
+ .middle a{
+    font-size: 30px;
+    line-height: 30px;
+    color: #FD4300;
+    margin-top: 20px;
+    
+ }
+
+ /* FIFTH PAGE STYLE */
+
+    .main-input{
+     width: 891px;
+    height: 80px;
+    background: #F2F2F2;
+    border: none;
+    margin: 16px 0;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #CECECE;
+    padding: 25px;
+    outline-style: none;
+    }
+
+    .suggest{
+    border: none;
+    background-color: transparent;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FD4300;
+    outline-style: none;
+    cursor: pointer;
+    }
+
+    /* FIFTH PAGE STYLES */
+
+.img{
+    background-color: rgb(240, 240, 240);
+    width: 600px;
+    height: 250px;
+}
+
+    /* SIXTH PAGE STYLES */
+
+.article-text{
+    width: 431px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8E8E8E;
+    margin:9px 0 30px 0 ;
+}
+
+.friend-article{
+    margin-left: 15px;
+}
+
+.friend-article a{
+    font-size: 20px;
+    line-height: 20px;
+    color: #FD4300;
+}
+
+.article-footer{
+    font-size: 20px;
+    line-height: 20px;
+    color: #C1C1C1;
+    margin-top: 100px;
+}
+
+h3{
+    padding-top: 16px;
+    
+}
+.title-friend{
+    padding-top: 30px;
+}
+
